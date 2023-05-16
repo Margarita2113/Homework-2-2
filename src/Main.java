@@ -4,10 +4,11 @@ public class Main {
     public static void main(String[] args) {
         int check = 100;
         int amount = 1300;
+
         int bonus = 0;
-        if (amount >= 1000) {
+        if (amount > 1000) {
             bonus = amount / 100;
-        } else if (amount < 1000) {
+        } else {
             bonus = 0;
         }
 
